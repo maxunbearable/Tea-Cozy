@@ -1,0 +1,136 @@
+html{
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    box-sizing: border-box;
+    text-align: center;
+}
+body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+header{
+    position: fixed;
+    border-bottom: 1px solid seashell;
+    height: 4rem;
+    background-color: black;
+    width:100%;
+    top:0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom:  4rem;
+}
+header li{
+    text-decoration: underline;
+    list-style-type: none;
+    color: seashell;
+}
+a{
+    color: seashell;
+}
+header img{
+    height: 2.2rem;
+    width:auto;
+    margin:0.4rem;
+}
+header li{
+    display: inline;
+    margin: 0.5rem; 
+}
+header ul{
+    margin-right: 1rem;
+}
+.mission-container{
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    max-width: 1200px;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 4rem auto 2rem;
+}
+.textbox{
+    width: 100%;
+    background: #000;
+    align-items: center;
+    line-height: 0.5;
+    
+}
+.pics img{
+    max-height:200px;
+    max-width:300px;
+    margin:0;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+figcaption{
+    margin-top: 10px;
+    font-weight: bold;
+}
+.pics{
+    max-width:1200px;
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between;
+    margin: 0 auto 1rem;
+}
+
+.information{
+    min-height: 24rem;
+    padding-top: 1rem;
+    opacity: 1;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;  
+}
+
+.locations {
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+.location {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 13.5rem;
+    padding: 0.5rem;
+    margin: 0.5rem 1rem;
+    opacity: 1;
+    background-color: black;
+    border-radius: 10px;
+}
+footer .tag{
+    float:left;
+    margin-left: 1rem;
+}
+.contact{
+    height:200px
+}
+footer{
+    margin-top: 1rem;
+}
+
+    
+    
+    
+
